@@ -14,6 +14,6 @@ func main() {
 				answer += string(letter)
 			}
 		}
-
+		os.Stdout.Write([]byte(answer + "\n"))
 	}
 }
